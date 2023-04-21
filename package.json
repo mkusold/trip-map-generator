@@ -1,0 +1,63 @@
+{
+  "name": "react-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/mapbox-gl": "^2.7.10",
+    "@types/node": "^16.18.14",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/recharts": "^1.8.24",
+    "lorem-ipsum": "^2.0.8",
+    "mapbox-gl": "^2.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.5",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.4.3",
+    "styled-components": "^5.3.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "npx eslint \"**/*.{ts,tsx}\"",
+    "lint:fix": "npx eslint \"**/*.{ts,tsx}\" --fix",
+    "eject": "react-scripts eject",
+    "docker:dev": "docker compose up --build webapp-dev",
+    "docker:ci": "docker compose up --build webapp-ci"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "eslint": "^8.36.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^4.9.5"
+  }
+}

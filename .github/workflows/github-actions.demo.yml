@@ -1,0 +1,22 @@
+name: React Template
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Linting
+    runs-on: ubuntu-latest
+    env:
+      COMPOSE_FILE: ./docker-compose.yml
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build docker images
+        run: docker-compose build webapp-ci
+
+      - name: Run Linting
+        run: docker-compose run webapp-ci lint
