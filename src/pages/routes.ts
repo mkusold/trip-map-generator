@@ -4,18 +4,6 @@ export const ROUTES = {
     path: '/',
     showNav: false,
     isProtected: false
-  },
-  profile: {
-    name: 'Profile',
-    path: '/profile',
-    showNav: false,
-    isProtected: true
-  },
-  map: {
-    name: 'Map',
-    path: '/map',
-    showNav: true,
-    isProtected: true
   }
 }
 

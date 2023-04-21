@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom'
 
 import { NAVITEMS } from '../../pages/routes'
 import { Logo, MobileLogo } from './logo'
-import { UserSettings } from './userSettings'
 import { useAppSelector } from '../../store/hooks'
 import { selectUser } from '../../store/user/user.slice'
 import { styled } from '@mui/material'
@@ -92,7 +91,6 @@ export const Navbar = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <UserSettings />
           </Box>
         </Toolbar>
       </Container>
