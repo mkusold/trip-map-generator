@@ -6,51 +6,6 @@ A base SPA React template for personal projects and for interviews
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
-
-### Base
-
-- preferred file structure
-- typescript
-- linting
-- Dockerized
-- CI - Github Actions (linting)
-- feature flagging
-- various screen width responsiveness
-
-### Additional Libraries
-
-- MUI & styled components with theming
-- routing (multiple pages, query params, 404 page)
-- state management (redux-toolit)
-
-### Component Examples
-
-- user login
-- forms
-- images
-- map (mapbox)
-- dotenv vars
-- charts
-
-## Features TODO
-
-- state management (redux)
-    - with examples of live updating data
-    - api request examples
-- PWA capable
-- testing framework
-    - unit testing
-    - e2e testing
-- CSS animation or webgl 2D / 3D animation
-- metadata
-    - favicon
-    - social media posting metadata
-- cross browser consistency
-- 100% a11y lighthouse score
-- performance
-- CD (netlify?)
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -88,7 +43,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Learn More`
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
